@@ -10,24 +10,28 @@ export const headerData = {
       text: '产品',
       links: [
         {
+          text: '全线产品列表',
+          href: getPermalink('/products/products'),
+        },
+        {
           text: '前置过滤器',
-          href: getPermalink('/products/prefilters'),
+          href: getPermalink('/products/products#prefilter'),
         },
         {
           text: '超滤净水器',
-          href: getPermalink('/products/ultrafiltration-systems'),
+          href: getPermalink('/products/products#ultrafiltration'),
         },
         {
           text: '无电反渗透净水器',
-          href: getPermalink('/products/reverse-osmosis-systems'),
+          href: getPermalink('/products/products#RO-system'),
         },
         {
           text: '无电软水机',
-          href: getPermalink('/products/water-softerners'),
+          href: getPermalink('/products/products#softerner'),
         },
         {
           text: '滤芯耗材',
-          href: getPermalink('/products/replacement-cartridges'),
+          href: getPermalink('/products/products#cartridges'),
         },
       ],
     },
@@ -42,10 +46,10 @@ export const headerData = {
           text: '博客列表',
           href: getBlogPermalink(),
         },
-        {
-          text: '商业场景',
-          href: getPermalink('/support/commercial'),
-        },
+        // {
+        //   text: '商业场景',
+        //   href: getPermalink('/support/commercial'),
+        // },
         {
           text: '成为代理商',
           href: getPermalink('/support/become-agent'),
