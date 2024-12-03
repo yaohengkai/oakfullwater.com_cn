@@ -1,0 +1,79 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import ContactUs from '~/components/widgets/Contact.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+
+const metadata = {
+  title: 'Contact',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+
+  <HeroText tagline="通讯方式" title="欢迎您联系我们!" />
+
+  <ContactUs
+    id="form"
+    title="今天就留个言吧!"
+    subtitle="对于一般问题，请查看快问快答（Q&A）板块. 或许你能在那里直接找到解决方案! 如果没有，我们的团队也很乐于为您解答."
+    inputs={[
+      {
+        type: 'text',
+        name: 'name',
+        label: '姓名',
+      },
+      {
+        type: 'email',
+        name: 'email',
+        label: '邮箱',
+      },
+    ]}
+    textarea={{
+      label: '留言',
+    }}
+    disclaimer={{
+      label:
+        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
+    }}
+    description="我们的支持团队一般会在24小时内与您联系。"
+  />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="乐于为您提供帮助!"
+    items={[
+      {
+        title: '产品帮助',
+        description: `Chat with us for inquiries related to account management, website navigation, payment issues, accessing purchased templates or general questions about the website's functionality.`,
+      },
+      {
+        title: '联系销售',
+        description:
+          'Chat with us for questions about purchases, customization options, licensing for commercial use, inquiries about specific template, etc.',
+      },
+      {
+        title: '技术支持',
+        description:
+          'Chat with us when facing issues like template installation, problems editing difficulties, compatibility issues with software or download errors, or other technical challenges related to using the templates.',
+      },
+      {
+        title: '总部电话',
+        description: '+86 0532-89975888',
+        icon: 'tabler:headset',
+      },
+      {
+        title: '邮件',
+        description: 'contact@oakfull.cn',
+        icon: 'tabler:mail',
+      },
+      {
+        title: '公司地址',
+        description: '山东省青岛市黄岛区棋盘山路3号',
+        icon: 'tabler:map-pin',
+      },
+    ]}
+  />
+</Layout>
