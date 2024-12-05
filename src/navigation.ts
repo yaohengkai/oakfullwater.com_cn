@@ -143,6 +143,10 @@ export const footerData = {
   secondaryLinks: [
     { text: 'Terms', href: getPermalink('/terms') },
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
+    // { text: '联系我们' },
+    // { text: 'sales@oakfull.cn' },
+    // { text: '0532-89975888' },
+    // { text: '山东省青岛市黄岛区棋盘山路3号' },
   ],
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
