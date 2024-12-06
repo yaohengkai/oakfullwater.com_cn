@@ -14,7 +14,7 @@ export const headerData = {
           href: getPermalink('/products/products'),
         },
         {
-          text: '前置过滤器',
+          text: '透明前置过滤器',
           href: getPermalink('/products/products#prefilter'),
         },
         {
@@ -40,12 +40,12 @@ export const headerData = {
       links: [
         {
           text: '资源中心',
-          href: getPermalink('/support/resource'),
+          href: getPermalink('/support/resources'),
         },
-        {
-          text: '博客列表',
-          href: getBlogPermalink(),
-        },
+        // {
+        //   text: '博客列表',
+        //   href: getBlogPermalink(),
+        // },
         // {
         //   text: '商业场景',
         //   href: getPermalink('/support/commercial'),
@@ -58,10 +58,10 @@ export const headerData = {
           text: '成为供应商',
           href: getPermalink('/support/become-supplier'),
         },
-        {
-          text: '成为合伙人',
-          href: getPermalink('/support/become-partner'),
-        },
+        // {
+        //   text: '成为合伙人',
+        //   href: getPermalink('/support/become-partner'),
+        // },
       ],
     },
     {
@@ -71,18 +71,18 @@ export const headerData = {
           text: '关于澳可富',
           href: getPermalink('/about/about'),
         },
-        {
-          text: '社会责任',
-          href: getPermalink('/about/responsibility'),
-        },
+        // {
+        //   text: '社会责任',
+        //   href: getPermalink('/about/responsibility'),
+        // },
         {
           text: '新闻报道',
-          href: getPermalink('/about/news'),
+          href: getBlogPermalink(),
         },
-        {
-          text: '招聘信息',
-          href: getPermalink('/about/career'),
-        },
+        // {
+        //   text: '招聘信息',
+        //   href: getPermalink('/about/career'),
+        // },
         {
           text: '联系我们',
           href: getPermalink('/about/contact'),
@@ -96,49 +96,100 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: '产品',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        {
+          text: '全线产品列表',
+          href: getPermalink('/products/products'),
+        },
+        {
+          text: '透明前置过滤器',
+          href: getPermalink('/products/products#prefilter'),
+        },
+        {
+          text: '超滤净水器',
+          href: getPermalink('/products/products#ultrafiltration'),
+        },
+        {
+          text: '无电反渗透净水器',
+          href: getPermalink('/products/products#RO-system'),
+        },
+        {
+          text: '无电软水机',
+          href: getPermalink('/products/products#softerner'),
+        },
+        {
+          text: '滤芯耗材',
+          href: getPermalink('/products/products#cartridges'),
+        },
       ],
     },
     {
-      title: 'Platform',
+      title: '服务支持',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
+        {
+          text: '资源中心',
+          href: getPermalink('/support/resources'),
+        },
+        // {
+        //   text: '博客列表',
+        //   href: getBlogPermalink(),
+        // },
+        // {
+        //   text: '商业场景',
+        //   href: getPermalink('/support/commercial'),
+        // },
+        {
+          text: '成为代理商',
+          href: getPermalink('/support/become-agent'),
+        },
+        {
+          text: '成为供应商',
+          href: getPermalink('/support/become-supplier'),
+        },
+        // {
+        //   text: '成为合伙人',
+        //   href: getPermalink('/support/become-partner'),
+        // },
       ],
     },
     {
-      title: 'Support',
+      title: '关于',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
+        {
+          text: '关于澳可富',
+          href: getPermalink('/about/about'),
+        },
+        // {
+        //   text: '社会责任',
+        //   href: getPermalink('/about/responsibility'),
+        // },
+        {
+          text: '新闻报道',
+          href: getBlogPermalink(),
+        },
+        // {
+        //   text: '招聘信息',
+        //   href: getPermalink('/about/career'),
+        // },
+        {
+          text: '联系我们',
+          href: getPermalink('/about/contact'),
+        },
       ],
     },
-    {
-      title: 'Company',
-      links: [
-        { text: 'About', href: '#' },
-        { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
-      ],
-    },
+    // {
+    //   title: 'Company',
+    //   links: [
+    //     { text: 'About', href: '#' },
+    //     { text: 'Blog', href: '#' },
+    //     { text: 'Careers', href: '#' },
+    //     { text: 'Press', href: '#' },
+    //     { text: 'Inclusion', href: '#' },
+    //     { text: 'Social Impact', href: '#' },
+    //     { text: 'Shop', href: '#' },
+    //   ],
+    // },
   ],
   secondaryLinks: [
     { text: 'Terms', href: getPermalink('/terms') },
