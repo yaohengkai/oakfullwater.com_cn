@@ -1,7 +1,8 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import HeroText from '~/components/widgets/HeroText.astro';
-import ContactUs from '~/components/widgets/Contact.astro';
+import HeroContact from '~/components/widgets/HeroContact.astro';
+// import HeroText from '~/components/widgets/HeroText.astro';
+// import ContactUs from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
@@ -10,9 +11,27 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
+    <!-- HeroContact Widget ******************* -->
+
+  <HeroContact
+    tagline="通讯方式"
+    image={{
+      src: '~/assets/images/Seven.png',
+      alt: 'Seven Image',
+    }}
+  >
+    <Fragment slot="title">
+      欢迎您加微信联系我们！
+    </Fragment>
+
+    <!-- <Fragment slot="subtitle">
+      我们是青岛澳可富净水设备有限公司，拥有和欧洲配套10多年的净水产品生产经验，自有厂房17000平方和自有商标OAKFULL及专利，独立的净化车间，集研发到生产一站式无电净水器生产厂家，竭诚为您服务。
+    </Fragment> -->
+  </Hero>
+
   <!-- HeroText Widget ******************* -->
 
-  <HeroText tagline="通讯方式" title="欢迎您联系我们!" />
+  <!-- <HeroText tagline="通讯方式" title="欢迎您联系我们!" />
 
   <ContactUs
     id="form"
@@ -38,7 +57,7 @@ const metadata = {
         'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
     }}
     description="我们的支持团队一般会在24小时内与您联系。"
-  />
+  /> -->
 
   <!-- Features2 Widget ************** -->
 

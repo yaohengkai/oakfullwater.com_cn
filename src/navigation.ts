@@ -10,7 +10,7 @@ export const headerData = {
       text: '产品',
       links: [
         {
-          text: '全线产品列表',
+          text: '全线列表',
           href: getPermalink('/products/products'),
         },
         {
@@ -68,7 +68,7 @@ export const headerData = {
       text: '关于',
       links: [
         {
-          text: '关于澳可富',
+          text: '澳可富',
           href: getPermalink('/about/about'),
         },
         // {
@@ -90,7 +90,7 @@ export const headerData = {
       ],
     },
   ],
-  actions: [{ text: '中文 / EN', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ text: '中文 / EN', href: 'https://en.oakfull.cn', target: '_blank' }],
 };
 
 export const footerData = {
@@ -99,7 +99,7 @@ export const footerData = {
       title: '产品',
       links: [
         {
-          text: '全线产品列表',
+          text: '全线列表',
           href: getPermalink('/products/products'),
         },
         {
@@ -157,7 +157,7 @@ export const footerData = {
       title: '关于',
       links: [
         {
-          text: '关于澳可富',
+          text: '澳可富',
           href: getPermalink('/about/about'),
         },
         // {
@@ -200,11 +200,11 @@ export const footerData = {
     // { text: '山东省青岛市黄岛区棋盘山路3号' },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
+    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://x.com/OakfullWater' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/oakfull/' },
+    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/profile.php?id=61570145790746' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/yaohengkai/oakfull.cn_en' },
   ],
   footNote: `
     <img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" src="https://onwidget.com/favicon/favicon-32x32.png" alt="onWidget logo" loading="lazy"></img>

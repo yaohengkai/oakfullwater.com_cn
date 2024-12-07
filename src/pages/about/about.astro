@@ -13,23 +13,22 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
-<!-- 
+
   <Hero
     tagline="关于我们"
     image={{
-      src: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Caos Image',
+      src: '~/assets/images/oakfull-outside.jpg',
+      alt: 'oakfull-outside',
     }}
   >
     <Fragment slot="title">
-      为什么选择澳可富 <br />
-      <span class="text-accent dark:text-white highlight"> 从想法到产品</span>
+      研产销一体无电净水制造商
     </Fragment>
 
     <Fragment slot="subtitle">
-      我们是青岛澳可富净水设备有限公司，拥有和欧洲配套10多年的净水产品生产经验，自有厂房17000平方和自有商标OAKFULL及专利，独立的净化车间，集研发到生产一站式无电净水器生产厂家，竭诚为您服务。
+      我们是一家集产品研发、模具设计与制造、注塑成型、生产制造以及市场销售于一体的专业净水器制造商。公司始终以技术创新为核心，致力于为全球客户提供高品质的净水解决方案。
     </Fragment>
-  </Hero> -->
+  </Hero>
 
   <!-- Stats Widget ****************** -->
 
@@ -44,11 +43,11 @@ const metadata = {
   /> -->
 
   <!-- Features3 Widget ************** -->
-
+<!-- 
   <Features3
     tagline="关于我们"
     title="研产销一体无电净水制造商"
-    subtitle=""
+    subtitle="我们是一家集产品研发、模具设计与制造、注塑成型、生产制造以及市场销售于一体的专业净水器制造商。公司始终以技术创新为核心，致力于为全球客户提供高品质的净水解决方案。"
     columns={3}
     isBeforeContent={true}
     items={[
@@ -71,80 +70,85 @@ const metadata = {
         icon: 'tabler:template',
       },
     ]}
-  />
+  /> -->
 
+<!-- Steps2 Widget ****************** -->
+
+<Steps2
+title="我们的企业文化"
+subtitle="企业文化既是企业内部协作的纽带，也是外部竞争的软实力。一个成功的企业通常具备与其战略目标相匹配的文化，这种文化不仅能吸引优秀人才，还能增强市场竞争力和品牌价值。"
+items={[
+  {
+    title: '使命',
+    description:
+      '打造幸福企业',
+    icon: 'tabler:template',
+  },
+  {
+    title: '愿景',
+    description:
+      '让健康、安全的净水流入每一个家庭',
+    icon: 'tabler:template',
+  },
+  {
+    title: '价值观',
+    description:
+      '匠心精神 客户至上 回报社会',
+    icon: 'tabler:template',
+  },
+  ]},
+  />
   <!-- Features3 Widget ************** -->
-<!-- 
+
   <Features3
     columns={3}
     isAfterContent={true}
     items={[
       {
-        title: 'E-commerce',
+        title: '全产业链布局',
         description:
-          'Rutrum non odio at vehicula. Proin ipsum justo, dignissim in vehicula sit amet, dignissim id quam. Sed ac tincidunt sapien.',
+          '从产品的概念设计、核心技术研发，到模具制造、注塑成型及批量生产，全部环节均由公司自主完成，确保产品质量的高度一致性和交付效率。',
         icon: 'tabler:template',
       },
       {
-        title: 'Blog',
+        title: '研发实力',
         description:
-          'Nullam efficitur volutpat sem sed fringilla. Suspendisse et enim eu orci volutpat laoreet ac vitae libero.',
+          '我们拥有一支经验丰富的研发团队，专注于净水技术的前沿开发，包括反渗透、超滤、软水机等技术，定期推出满足市场需求的创新产品。',
         icon: 'tabler:template',
       },
       {
-        title: 'Business',
+        title: '模具与注塑',
         description:
-          'Morbi et elit finibus, facilisis justo ut, pharetra ipsum. Donec efficitur, ipsum quis congue luctus, mauris magna.',
+          '配备现代化模具制造车间和高精密注塑设备，确保产品部件从设计到成品的精度和耐用性。',
         icon: 'tabler:template',
       },
       {
-        title: 'Branding',
+        title: '生产能力',
         description:
-          'Suspendisse vitae nisi eget tortor luctus maximus sed non lectus. Cras malesuada pretium placerat. Nullam venenatis dolor a ante rhoncus.',
+          '生产基地采用智能化流水线作业，具备高效的规模化生产能力，同时严格执行ISO质量管理体系，确保每一台产品的可靠性。',
         icon: 'tabler:template',
       },
       {
-        title: 'Medical',
+        title: '市场支持',
         description:
-          'Vestibulum malesuada lacus id nibh posuere feugiat. Nam volutpat nulla a felis ultrices, id suscipit mauris congue. In hac habitasse platea dictumst.',
+          '在全球多个地区建立销售网络，与合作伙伴共同推动净水器市场的发展，为消费者带来更健康、更安心的净水体验。',
         icon: 'tabler:template',
       },
       {
-        title: 'Fashion Design',
+        title: '产品特色',
         description:
-          'Maecenas eu tellus eget est scelerisque lacinia et a diam. Aliquam velit lorem, vehicula id fermentum et, rhoncus et purus.',
+          '我们提供多元化的净水产品，包括家用净水器、商用净水设备、滤芯及配件等，满足不同场景的需求。此外，还可根据客户要求提供定制化设计与生产服务。',
         icon: 'tabler:template',
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
-      alt: 'Colorful Image',
+      src: '~/assets/images/oakfull-inside.jpg',
+      alt: 'oakfull-inside',
     }}
-  /> -->
+  />
 
-  <!-- Steps2 Widget ****************** -->
-<!-- 
-  <Steps2
-    title="价值观"
-    subtitle=""
-    items={[
-      {
-        title: '匠心精神',
-        description:
-          'Donec id nibh neque. Quisque et fermentum tortor. Fusce vitae dolor a mauris dignissim commodo. Ut eleifend luctus condimentum.',
-      },
-      {
-        title: '客户至上',
-        description:
-          'Phasellus laoreet fermentum venenatis. Vivamus dapibus pulvinar arcu eget mattis. Fusce eget mauris leo.',
-      },
-      {
-        title: '回报社会',
-        description:
-          'Vestibulum imperdiet libero et lectus molestie, et maximus augue porta. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-      },
-    ]}
-  /> -->
+  
+  
 
   <!-- Steps2 Widget ****************** -->
 <!-- 
