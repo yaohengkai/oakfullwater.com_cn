@@ -10,25 +10,25 @@ site:
 metadata:
   title:
     default: Oakfull
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    template: '%s'
+  description: "A professional water purifier manufacturer"
   robots:
     index: true
     follow: true
   openGraph:
     site_name: Oakfull
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/oakfull-outside.jpg'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
+    handle: '@Oakfull'
+    site: '@Oakfull'
     cardType: summary_large_image
 
 i18n:
-  language: en
+  language: cn
   textDirection: ltr
 
 apps:

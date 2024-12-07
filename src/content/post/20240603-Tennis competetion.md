@@ -9,7 +9,7 @@ tags:
   - 赞助
   - 网球邀请赛
 metadata:
-  canonical: https://astrowind.vercel.app/get-started-website-with-astro-tailwind-css
+  canonical: https://oakfull.cn/20240603-tennis-competetion
 ---
 
 本次比赛由青岛澳可富净水设备有限公司主办，青岛西海岸新区山元网球俱乐部承办，百保力体育用品贸易（上海）有限公司， KANNON冠群网球，青岛（名嘉汇）秞醍面包•甜品•蛋糕，中茶普洱（名嘉汇店），青岛中联•两把拍子网球俱乐部协办。
